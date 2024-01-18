@@ -1,0 +1,466 @@
+*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button.loading .play-pause-button:after { background:; }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button.loaded.playing .play-pause-button:after { -webkit-mask:url("data:image/svg+xml;base64,PHN2ZyBpZD0iRXhwb3J0YWJsZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMWQxZDFmfTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJwYXVzZSI+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzLjc1IiB5PSIzIiB3aWR0aD0iNC41IiBoZWlnaHQ9IjE0IiByeD0iMS41Ii8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIxMS43NSIgeT0iMyIgd2lkdGg9IjQuNSIgaGVpZ2h0PSIxNCIgcng9IjEuNSIvPjwvZz48L3N2Zz4="); }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button.loaded.playing .play-pause-button:after { mask:url("data:image/svg+xml;base64,PHN2ZyBpZD0iRXhwb3J0YWJsZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMWQxZDFmfTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJwYXVzZSI+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzLjc1IiB5PSIzIiB3aWR0aD0iNC41IiBoZWlnaHQ9IjE0IiByeD0iMS41Ii8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIxMS43NSIgeT0iMyIgd2lkdGg9IjQuNSIgaGVpZ2h0PSIxNCIgcng9IjEuNSIvPjwvZz48L3N2Zz4="); }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button.loaded.ended .play-pause-button:after { -webkit-mask:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTE2Ljc1IDkuNGExLjUgMS41IDAgMDAtMS41IDEuNUE0Ljg4IDQuODggMCAxMTEwLjM4IDZoLjJMOS4zMSA3LjMyYTEuNSAxLjUgMCAwMDEuMDYgMi41NiAxLjQ1IDEuNDUgMCAwMDEuMDYtLjQ0TDE1IDUuODhhMS41MiAxLjUyIDAgMDAuNDQtMS4wNkExLjU0IDEuNTQgMCAwMDE1IDMuNzVMMTEuNDMuMTlhMS40OSAxLjQ5IDAgMDAtMi4xMiAwIDEuNTEgMS41MSAwIDAwMCAyLjEybC43NS43NWE3Ljg1IDcuODUgMCAxMDguMTkgNy44NCAxLjUgMS41IDAgMDAtMS41LTEuNXoiIGZpbGw9IiMxZDFkMWYiLz48L3N2Zz4="); }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button.loaded.ended .play-pause-button:after { mask:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTE2Ljc1IDkuNGExLjUgMS41IDAgMDAtMS41IDEuNUE0Ljg4IDQuODggMCAxMTEwLjM4IDZoLjJMOS4zMSA3LjMyYTEuNSAxLjUgMCAwMDEuMDYgMi41NiAxLjQ1IDEuNDUgMCAwMDEuMDYtLjQ0TDE1IDUuODhhMS41MiAxLjUyIDAgMDAuNDQtMS4wNkExLjU0IDEuNTQgMCAwMDE1IDMuNzVMMTEuNDMuMTlhMS40OSAxLjQ5IDAgMDAtMi4xMiAwIDEuNTEgMS41MSAwIDAwMCAyLjEybC43NS43NWE3Ljg1IDcuODUgMCAxMDguMTkgNy44NCAxLjUgMS41IDAgMDAtMS41LTEuNXoiIGZpbGw9IiMxZDFkMWYiLz48L3N2Zz4="); }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button .play-pause-button:after { -webkit-mask:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTUgMTUuMjVWNC43N2ExLjQ0IDEuNDQgMCAwMTEuNDQtMS42MiAxLjg2IDEuODYgMCAwMTEuMTEuMzFsOC41MyA1Yy43Ni40NCAxLjE3LjggMS4xNyAxLjUxcy0uNDEgMS4wNy0xLjE3IDEuNTFsLTguNTMgNWExLjg2IDEuODYgMCAwMS0xLjExLjMxQTEuNDIgMS40MiAwIDAxNSAxNS4yNXoiLz48L3N2Zz4="); }
+.inline-media-component-container.with-media-ui-button .inline-media-ui-button .play-pause-button:after { mask:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTUgMTUuMjVWNC43N2ExLjQ0IDEuNDQgMCAwMTEuNDQtMS42MiAxLjg2IDEuODYgMCAwMTEuMTEuMzFsOC41MyA1Yy43Ni40NCAxLjE3LjggMS4xNyAxLjUxcy0uNDEgMS4wNy0xLjE3IDEuNTFsLTguNTMgNWExLjg2IDEuODYgMCAwMS0xLjExLjMxQTEuNDIgMS40MiAwIDAxNSAxNS4yNXoiLz48L3N2Zz4="); }
+.section-closer-look .all-access-pass__container .viewer-colornav-swatch-all-colors { background-image:url(/v/iphone-15/a/images/overview/closer-look/swatch_all_colors__b5yd8teerwb6_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-closer-look .all-access-pass__container .viewer-colornav-swatch-all-colors { background-image:url(/v/iphone-15/a/images/overview/closer-look/swatch_all_colors__b5yd8teerwb6_large_2x.png); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_large_2x.png); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.hardware { background-image:url(/v/iphone-15/a/images/overview/highlights/dynamic_island_hw__bq0da9ahwxpy_small_2x.png); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_dynamic_island_startframe__emrxzaec4fcm_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-camera .positioned-media-element.camera { background-image:url(/v/iphone-15/a/images/overview/highlights/48mp_camera__kkyuj8fi4nue_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.startframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_startframe__f8k1ikb13iye_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.endframe { background-image:url(/v/iphone-15/a/images/overview/highlights/video/highlights_glass_endframe__2l072bkhxlee_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-design .positioned-media-element.static { background-image:url(/v/iphone-15/a/images/overview/highlights/glass__c1jqfyazdkuq_small_2x.jpg); }
+}
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-usb-c .positioned-media-element.usbc { background-image:url(/v/iphone-15/a/images/overview/highlights/usbc__bvuxditgibci_small_2x.png); }
+}
+@supports((-webkit-mask-image:url()) or (mask-image:url(""))) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_large.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_large_2x.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_large_2x.png); }
+}
+@media only screen and (max-width:1068px) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_medium.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_medium_2x.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_small.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .subsection-dynamic-island .hw-screen-composite { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_small_2x.png); }
+  .subsection-dynamic-island .hw-screen-composite { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dynamic_island_mask__be96h8vv9ioi_small_2x.png); }
+}
+}
+@supports((-webkit-mask-image:url()) or (mask-image:url(""))) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_large.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_large_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_large_2x.png); }
+}
+@media only screen and (max-width:1068px) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_medium.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_medium_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_small.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_small_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-dynamic-island { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_dynamic_island_mask__ehl4afr73ywm_small_2x.png); }
+}
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_large.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_large_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_large_2x.png); }
+}
+@media only screen and (max-width:1068px) {
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_medium.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_medium_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_small.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { -webkit-mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_small_2x.png); }
+  .l2-dynamic-island .overview-dynamic-island-dd-fluid { mask-image:url(/v/iphone-15/a/images/overview/dynamic-island/dd_fluid_mask__bvipcuw4nbqu_small_2x.png); }
+}
+}
+.subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .subsection-safety .overview-safety-safety-bg { background-image:url(/v/iphone-15/a/images/overview/safety/safety__r2ikccfsr6ai_small_2x.jpg); }
+}
+@supports((-webkit-mask-image:url()) or (mask-image:url(""))) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_large.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_large_2x.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_large_2x.png); }
+}
+@media only screen and (max-width:1068px) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_medium.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_medium.png); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_medium_2x.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_medium_2x.png); }
+}
+@media only screen and (max-width:734px) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_small.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_small.png); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .l2-usb-c .overview-usb-c-dd-charger { -webkit-mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_small_2x.png); }
+  .l2-usb-c .overview-usb-c-dd-charger { mask-image:url(/euro/iphone-15/a/generic/images/overview/usb-c/dd_charger_mask__cdl0bgj1ajea_small_2x.png); }
+}
+}
+.section-welcome .welcome__video-headline-logo { background-image:url(/v/iphone-15/a/images/overview/welcome/logo_iphone__t7von5t41jma_large.png); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-welcome .welcome__video-headline-logo { background-image:url(/v/iphone-15/a/images/overview/welcome/logo_iphone__t7von5t41jma_large_2x.png); }
+}
+
+.section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .section-highlights [data-component-list*=HighlightsGallery] .media-gallery .item-container .media-gallery-item-dynamic-island .positioned-media-element.endframe { background-image:url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island_endframe__b6spnbuvcq5e_small_2x.jpg); }
+}
+
+/* static images replacing dynamic island video */
+
+.section-highlights
+	[data-component-list*="HighlightsGallery"]
+	.media-gallery
+	.item-container
+	.media-gallery-item-dynamic-island
+	.positioned-media-element.startframe {
+	height: 518px;
+	width: 1260px;
+	background-size: 1260px 518px;
+	margin-left: -366px;
+	background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_large.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.startframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.startframe {
+		height: 472px;
+		width: 932px;
+		background-size: 932px 472px;
+		margin-left: -232px;
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.startframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.startframe {
+		height: 382px;
+		width: 734px;
+		background-size: 734px 382px;
+		margin-left: -214px;
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.startframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_small_2x.png);
+	}
+}
+
+.section-highlights
+	[data-component-list*="HighlightsGallery"]
+	.media-gallery
+	.item-container
+	.media-gallery-item-dynamic-island
+	.positioned-media-element.endframe {
+	height: 518px;
+	width: 1260px;
+	background-size: 1260px 518px;
+	margin-left: -366px;
+	background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_large.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.endframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.endframe {
+		height: 472px;
+		width: 932px;
+		background-size: 932px 472px;
+		margin-left: -232px;
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.endframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.endframe {
+		height: 382px;
+		width: 734px;
+		background-size: 734px 382px;
+		margin-left: -214px;
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-highlights
+		[data-component-list*="HighlightsGallery"]
+		.media-gallery
+		.item-container
+		.media-gallery-item-dynamic-island
+		.positioned-media-element.endframe {
+		background-image: url(/fr/iphone-15/images/overview/highlights/video/highlights_dynamic_island__dow1sotfwygm_small_2x.png);
+	}
+}
+
+
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/ 
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+#overview-camera-camera-endframe-1
+ {
+  opacity: 1;
+}
+
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 
