@@ -20,8 +20,27 @@ header {
     height: auto;
 }
 
+.producto button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
 footer {
     text-align: center;
     padding: 20px;
     background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 600px) {
+    header, footer {
+        text-align: left;
+        padding: 5px;
+    }
+    .producto {
+        margin: 5px;
+        padding: 5px;
+    }
+    .producto img {
+        max-width: 100%;
+    }
 }
