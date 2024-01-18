@@ -1,46 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c1c1b;
+    color: #696868;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #f8f8f8;
-    padding: 10px;
+    background: #424040;
+    color: #888585;
+    padding: 1rem 0;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+}
+
 .producto {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
+    background: #fff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     text-align: center;
 }
 
 .producto img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
 }
 
-.producto button:hover {
-    background-color: #4CAF50;
-    color: white;
+.producto h2 {
+    color: #333;
+}
+
+button {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #666;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background: #333;
+    color: #fff;
 }
 
-@media screen and (max-width: 600px) {
-    header, footer {
-        text-align: left;
-        padding: 5px;
-    }
+@media screen and (max-width: 768px) {
     .producto {
-        margin: 5px;
-        padding: 5px;
-    }
-    .producto img {
-        max-width: 100%;
+        width: 90%;
+        margin: 10px auto;
     }
 }
