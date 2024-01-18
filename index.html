@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Móviles</title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .producto {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda de Móviles</h1>
+    </header>
+
+    <section id="productos">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <img src="iphone1.jpg" alt="iPhone Modelo 1">
+            <h2>iPhone Modelo 1</h2>
+            <p>Descripción del iPhone Modelo 1.</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+            <img src="iphone2.jpg" alt="iPhone Modelo 2">
+            <h2>iPhone Modelo 2</h2>
+            <p>Descripción del iPhone Modelo 2.</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Más productos... -->
+    </section>
+
+    <footer>
+        <div id="contador-visitas">Número de visitas: <span id="visitas"></span></div>
+    </footer>
+
+    <script>
+        fetch('https://api.countapi.xyz/hit/mi_tienda_moviles/visitas')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('visitas').textContent = data.value;
+        })
+        .catch(error => console.error('Error al obtener el contador de visitas:', error));
+    </script>
+	 <script src="script.js"></script>
+</body>
+</html>
